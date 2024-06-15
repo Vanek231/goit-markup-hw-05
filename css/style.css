@@ -615,3 +615,7 @@ button {
     
     gap: 16px;
 }
+
+.footer-button-svg {
+    margin-left: 16px;
+}
