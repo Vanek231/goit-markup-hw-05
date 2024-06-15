@@ -563,7 +563,8 @@ button {
 }
 
 .footer-subscribe {
-
+    display: flex;
+    margin-left: auto;
 }
 
 .footer-subscribe-paragraf {
