@@ -637,7 +637,7 @@ button {
 /* Modalka */
 
 .modal {
-    position: absolute,
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -672,6 +672,7 @@ button {
 .modal-button:hover {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .modal-button:focus {
@@ -679,10 +680,6 @@ button {
     border: none;
 }
 
-.modal-button:hover .modal-svg,
-.modal-button:focus .modal-svg {
-    fill: #ffffff;
-}
 
 
 
