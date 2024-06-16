@@ -672,7 +672,6 @@ button {
 .modal-button:hover {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
 }
 
 .modal-button:focus {
@@ -680,7 +679,13 @@ button {
     border: none;
 }
 
+.modal-button:hover .modal-svg {
+    fill: #ffffff
+}
 
+.modal-button:focus .modal-svg {
+    fill: #ffffff
+}
 
 
 .modal-svg {
@@ -735,7 +740,7 @@ button {
     border-color: #4D5AE5;
 }
 
-.modal-form-input:hover + .modal-form-svg {
+.modal-form-input:hover .modal-form-svg {
     fill:#4D5AE5;
 }
 
