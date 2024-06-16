@@ -707,11 +707,6 @@ button {
 
 }
 
-/* .modal-form-container {
-    margin-bottom: 8px;
-
-} */
-
 .modal-form-label {
     font-size: 12px;
     line-height: 1.17;
@@ -734,6 +729,10 @@ button {
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-input:focus {
+    border-color: #4D5AE5;
 }
 
 .modal-form-input:focus + .modal-form-svg {
@@ -798,11 +797,6 @@ button {
     fill: transparent;
 }
 
-.model-form-label-accept:checked + .modal-form-label-span {
-    background-color:#404bbf;
-    border:none;
-    fill:#F4F4FD;
-}
 
 .modal-form-span-svg-use {
 
