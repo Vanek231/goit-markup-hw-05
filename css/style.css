@@ -826,7 +826,7 @@ button {
 }
 
 
-.visually-hidden:checked + .modal-form-label-span {
+.modal-firm-lainputvel-input:checked + .model-form-label-accept > .modal-form-label-span {
     background-color:#404bbf;
     border:none;
     fill:#F4F4FD;
